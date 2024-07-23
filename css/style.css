@@ -1,0 +1,518 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'IRANSans';
+    src: url(../font/FontsFree-Net-ir_sans.ttf);
+}
+body{
+    font-family: 'IRANSans', -apple-system, 
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+    direction: rtl;
+    
+
+}
+
+.container{
+    width: 100%;
+    background-color: white; 
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;
+    top: 0px;
+    padding: 10px 35px;
+
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    padding: 0 100px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    font-size: 16px; 
+    color: rgba(0, 0, 0, 0.588); 
+    font-size: 0.9em;
+}
+.min-header,.min-nav{
+    display: none;
+}
+header div{
+    margin: 15px;
+    cursor: pointer;
+}
+/* main{
+
+}  */
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #21AA58;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+}
+.left img{
+    width: 100%; 
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    margin: 5px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.right .exp{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+.right p{
+    font-size: 20px;
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: 100;
+    padding: 10px 0;
+
+}
+.phone-num{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    
+}
+.phone-num ::placeholder{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.675);
+}
+.phone-num input{
+    width: 150px;
+    background-color: #21AA58;
+    border: none;
+    border-bottom:1px solid white;
+    
+}
+.phone-num .lk,.phone-num .hide{
+    background-color: white;
+    color: #00D16F;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 16px; 
+    padding: 10px 25px;
+    font-size: 16px;
+}
+.phone-num .hide{
+    display: none;
+}
+.web-btn{
+    width: 250px;
+    background-color: #21AA58;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 0;
+    font-weight: 700;
+    margin: 20px 0;
+    margin-left: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.download{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    margin: 60px 0;
+    padding: 10px 20px;
+}
+.download img{
+    width: 150px;
+    margin: 0 24px;
+    padding: 5px auto;
+}
+.service{
+    background-color: rgb(235, 242, 245); 
+    padding: 10px;
+   
+}
+.service #head{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 40px auto;
+    
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column; 
+    
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 89%;
+    
+    
+}
+
+.box img{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+    margin-left: 5px;
+
+}
+
+.box a{
+    text-decoration: none;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    margin: 18px;
+    
+}
+.inner-bx{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.inner-bx #hide{
+    color: rgb(149, 148, 148);
+    font-size: 12px;
+    margin-top: 5px;
+}
+#p-bx{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+.foodbox{
+    width: 100%;
+    padding: 80px 210px;
+}
+.foodbox a{
+    cursor: pointer;
+}
+
+
+.foodbox .food{
+    width: 100%;
+    height: 320px;
+    background-image: url(../imeges/Food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.super-app{
+    display: flex;
+    width: 100%;
+
+}
+.super-app img{
+    width: 50%;
+
+}
+.s-box{
+    display: flex;
+    
+}
+.s-inner{
+    width: 35%;
+    margin: 10px 40px;
+    text-align: right;
+    
+}
+.s-inner h2{
+    font-weight: 700;
+}
+.s-inner p{
+    font-size: 89%;
+    color: rgba(35, 35, 35, 0.811);
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    margin: auto 100px;
+    position: relative;
+    top: -80px;
+    
+}
+.bx{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    background-color: rgb(235, 242, 245); ;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 10px;
+}
+.bx p{
+    font-size: 12px;
+    color: rgba(35, 35, 35, 0.811);
+}
+.bx img{
+    width: 200px;
+    height: 200px;
+}
+.img-r{
+    background-image: url("imeges/easy.png");
+}
+
+
+.enroll{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(235, 242, 245); 
+
+}
+.join{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;  
+}
+.enroll a{
+    text-decoration: none;
+    background-color: #00D16F;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    margin-right: 16px; 
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.enroll .enrl{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    margin: 40px auto;
+    width: 100%;
+}
+
+video{
+    width: 70%;
+    
+}
+.about-job{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    width: 100%;
+    
+
+}
+.drivers{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: white;
+    width: 35%;
+    margin: 20px 10px;
+    border-radius: 20px;
+    padding: 20px 40px;
+    cursor: default;
+}
+.drivers img{
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 140px;
+    height: 90px;
+}
+.drivers p{
+    display: flex;
+    padding: 10px;
+
+}
+.other{
+    font-size: 0.8em;
+    color: rgba(35, 35, 35, 0.811);
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.foot a{
+    margin: 40px 10px;
+    color: rgba(0, 0, 0, 0.584);
+    
+}
+.social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+.social-media i{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.648);
+    cursor: pointer;
+    margin-top: 0px;
+    padding: 7px;
+    background-color: white;
+}
+.img-f{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: row-reverse ;
+}
+
+footer img{
+    width: 8%;
+    margin: 10px;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px){
+    nav, .left, .phone-num .lk,.phone-num input,.web-btn ,.download, .inner-bx #hide, .foodbox{
+        display: none;
+    }
+    .phone-num .hide{
+        display: block;
+        color: black;
+        width: 100%;
+    }
+    
+    .min-header,.min-nav{
+        width: 100%;
+        display: block;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.481);
+    }
+    .min-nav div{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .right{
+        width: 100%;
+    }
+    .inner-bx{
+        display: block;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .inner-bx img{
+        align-content: center;
+    }
+    .foodbox{
+        width: 100%;
+        padding: auto;
+    }
+    .foodbox .food{
+        width: 100%;
+        margin: 0;
+        background-size: cover;
+    }
+    .super-app,
+    .box2{
+        margin: 0%;
+        width: 100%;
+        flex-direction: column;
+        position: static;
+    }
+    .bx img{
+        display: flex;
+        justify-content: center;
+        margin: auto auto 120px auto;
+    }
+    .bx,.bx p,.bx img, .super-app img, .s-inner{
+        width: 100%;
+    
+    }
+    .s-inner p{   
+        margin: 10px 0;
+    }
+    .about-job, .drivers{
+        flex-direction: column;
+        width: 90%;
+    }
+    .foot a{
+        font-size: 0.9em;
+        margin: 10px;
+        
+    }
+    .join{
+        font-size: 25px;
+    }
+    
+
+    
+   
+} 
+
+@media only screen and (min-width:601px ) and (max-width: 800px) {
+
+    nav, .left, .phone-num .lk,.phone-num input,.web-btn ,.download, .inner-bx #hide, .foodbox{
+        display: none;
+    }
+    .box2{
+        display: flex;
+        justify-content: space-around;
+        position: static;
+        flex-wrap: wrap;
+        width: 100%;
+        position: static;
+        margin: 0%;
+        
+    }
+    .bx{
+        width: 40%; 
+        margin: 10px;
+    }
+}
+
